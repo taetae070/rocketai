@@ -5,9 +5,12 @@ export default function Home() {
 				<h1 className="text-2xl font-bold text-gray-800 mb-2">
 					프론트엔드 반응형 코딩테스트
 				</h1>
-				<p className="text-gray-600">
-					디자인 에셋을 바탕으로 반응형 웹페이지를 구현합니다
-				</p>
+				        <p className="text-gray-600">
+          디자인 에셋을 바탕으로 반응형 웹페이지를 구현합니다
+        </p>
+        <p className="text-sm text-gray-500 mt-2">
+          Vercel 배포 준비 완료
+        </p>
 			</div>
 
 			<div className="bg-white rounded-lg shadow-md p-6">
