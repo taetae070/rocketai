@@ -13,10 +13,8 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="ko">
-			<body>
-				<div className="min-h-screen bg-gray-100">
-					<main className="container mx-auto max-w-md px-4">{children}</main>
-				</div>
+			<body className="min-h-screen bg-gray-100">
+				<main className="mx-auto max-w-md px-4">{children}</main>
 			</body>
 		</html>
 	);
